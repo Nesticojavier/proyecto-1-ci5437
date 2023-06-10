@@ -51,7 +51,5 @@ TODO
     ├── abstractor.cpp
     └── ...
 ```
-    
-   
-El directorio [bin](./bin) contiene el compilador de psvn (psvn2c).
-El directorio [generators](./generators) contiene los generadores usados para generar los espcios de estado correspondientes a cada problema.
+- El directorio [bin](./bin) contiene el compilador de psvn (psvn2c).
+- El directorio [generators](./generators) contiene los generadores usados para generar los espcios de estado correspondientes a cada problema.

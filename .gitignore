@@ -1,0 +1,4 @@
+.vscode
+
+#  extensiones de archivos ejecutables generados a partir de la compilacion y enlace de los archivos .c
+**/*.succ

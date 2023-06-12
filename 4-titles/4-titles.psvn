@@ -1,0 +1,19 @@
+# This file was created by genHanoi.cpp with the following command line parameters:
+#  4  12
+
+# number of state variables
+ 5
+
+# All state variables are binary.
+5 5 5 5 5
+
+- - - X 0 => - - - 0 X  LABEL RIGHT
+- - X 0 -  => - - 0 X - LABEL RIGHT
+- X 0 - - => - 0 X - -  LABEL RIGHT
+X 0 - - - => 0 X - - -  LABEL RIGHT
+0 X - - - => X 0 - - -  LABEL LEFT
+- 0 X - - => - X 0 - -  LABEL LEFT
+- - 0 X - => - - X 0 -  LABEL LEFT
+- - - 0 X => - - - X 0  LABEL LEFT
+
+GOAL 1 2 3 4 0
